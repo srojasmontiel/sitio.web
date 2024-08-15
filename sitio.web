@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo sobre Motos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Todo sobre Motos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#motos">Modelos</a></li>
+                    <li><a href="#tips">Consejos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home">
+        <div class="container">
+            <h2>Bienvenido a la Página de Motos</h2>
+            <p>Descubre los últimos modelos, consejos útiles y toda la información que necesitas sobre motos. Desde las mejores motos deportivas hasta las más confiables para uso diario, aquí encontrarás todo lo que buscas.</p>
+        </div>
+    </section>
+    
+    <section id="motos">
+        <div class="container">
+            <h2>Modelos de Motos</h2>
+            
+            <article>
+                <h3>Yamaha YZF-R1</h3>
+                <img src="imagenes/yamaha yzf r1.jpe" alt="Yamaha YZF-R1">
+                <p>La Yamaha YZF-R1 es una moto deportiva de alta gama, diseñada para ofrecer un rendimiento excepcional en pista y carretera. Su motor de 998 cc y la tecnología avanzada de electrónica proporcionan una experiencia de conducción única.</p>
+                <ul>
+                    <li><strong>Motor:</strong> 998 cc</li>
+                    <li><strong>Potencia:</strong> 200 hp</li>
+                    <li><strong>Par Motor:</strong> 112.4 Nm</li>
+                    <li><strong>Velocidad Máxima:</strong> 299 km/h</li>
+                    <li><strong>Precio:</strong> $17,399</li>
+                </ul>
+                <p><strong>Características Destacadas:</strong> Control de tracción, frenos antibloqueo (ABS), suspensión ajustable, modos de conducción ajustables.</p>
+            </article>
+            
+            <article>
+                <h3>Honda CBR600RR</h3>
+                <img src="imagenes/Honda CBR600RR.jpe" alt="Honda CBR600RR">
+                <p>La Honda CBR600RR combina un diseño aerodinámico con una gran maniobrabilidad. Ideal para aquellos que buscan una moto que se sienta igualmente cómoda en el día a día y en las pistas de carreras.</p>
+                <ul>
+                    <li><strong>Motor:</strong> 599 cc</li>
+                    <li><strong>Potencia:</strong> 118 hp</li>
+                    <li><strong>Par Motor:</strong> 66 Nm</li>
+                    <li><strong>Velocidad Máxima:</strong> 250 km/h</li>
+                    <li><strong>Precio:</strong> $11,699</li>
+                </ul>
+                <p><strong>Características Destacadas:</strong> Sistema de frenos de disco de doble pistón, suspensión de aluminio, modos de conducción ajustables, diseño ergonómico.</p>
+            </article>
+            
+            <article>
+                <h3>Ducati Panigale V4</h3>
+                <img src="imagenes/ducati-panigale-v4.jpe" alt="Ducati Panigale V4">
+                <p>La Ducati Panigale V4 es una superbike que ofrece un impresionante rendimiento gracias a su motor V4 de 1,103 cc. Con un diseño agresivo y tecnología de vanguardia, es perfecta para los entusiastas de las altas velocidades.</p>
+                <ul>
+                    <li><strong>Motor:</strong> 1,103 cc</li>
+                    <li><strong>Potencia:</strong> 214 hp</li>
+                    <li><strong>Par Motor:</strong> 124 Nm</li>
+                    <li><strong>Velocidad Máxima:</strong> 320 km/h</li>
+                    <li><strong>Precio:</strong> $22,995</li>
+                </ul>
+                <p><strong>Características Destacadas:</strong> Control de tracción avanzado, sistema de frenos Brembo, modos de conducción personalizados, diseño aerodinámico.</p>
+            </article>
+            
+            <article>
+                <h3>Kawasaki Ninja H2</h3>
+                <img src="imagenes/kawasaki-ninja-h2.jpe" alt="Kawasaki Ninja H2">
+                <p>La Kawasaki Ninja H2 es conocida por su motor sobrealimentado que la coloca en una categoría única. Con su impresionante potencia y tecnología de supercargador, ofrece una experiencia de conducción inigualable.</p>
+                <ul>
+                    <li><strong>Motor:</strong> 998 cc</li>
+                    <li><strong>Potencia:</strong> 228 hp</li>
+                    <li><strong>Par Motor:</strong> 141.7 Nm</li>
+                    <li><strong>Velocidad Máxima:</strong> 337 km/h</li>
+                    <li><strong>Precio:</strong> $28,000</li>
+                </ul>
+                <p><strong>Características Destacadas:</strong> Supercargador, frenos de alto rendimiento, sistema de suspensión electrónica, diseño futurista.</p>
+            </article>
+            
+            <article>
+                <h3>Suzuki GSX-R1000</h3>
+                <img src="imagenes/suzuki-gsx-r1000.jpe" alt="Suzuki GSX-R1000">
+                <p>La Suzuki GSX-R1000 es una moto que combina potencia y control con una estética agresiva. Con un motor de 999 cc y un diseño centrado en el rendimiento, es ideal tanto para carreteras como para pistas.</p>
+                <ul>
+                    <li><strong>Motor:</strong> 999 cc</li>
+                    <li><strong>Potencia:</strong> 199 hp</li>
+                    <li><strong>Par Motor:</strong> 117.6 Nm</li>
+                    <li><strong>Velocidad Máxima:</strong> 290 km/h</li>
+                    <li><strong>Precio:</strong> $14,599</li>
+                </ul>
+                <p><strong>Características Destacadas:</strong> Sistema de frenos con ABS, suspensión de alta calidad, control de tracción, diseño aerodinámico.</p>
+            </article>
+            
+            <article>
+                <h3>KTM RC 390</h3>
+                <img src="imagenes/ktm-rc-390.jpe" alt="KTM RC 390">
+                <p>La KTM RC 390 es una moto deportiva ligera ideal para los principiantes que buscan una moto ágil y rápida. Su motor de 373 cc y diseño agresivo ofrecen un excelente rendimiento en pista y carretera.</p>
+                <ul>
+                    <li><strong>Motor:</strong> 373 cc</li>
+                    <li><strong>Potencia:</strong> 44 hp</li>
+                    <li><strong>Par Motor:</strong> 36 Nm</li>
+                    <li><strong>Velocidad Máxima:</strong> 179 km/h</li>
+                    <li><strong>Precio:</strong> $5,499</li>
+                </ul>
+                <p><strong>Características Destacadas:</strong> Suspensión WP ajustable, frenos de disco de doble pistón, diseño deportivo, sistema de frenos antibloqueo (ABS).</p>
+            </article>
+            
+            <article>
+                <h3>BMW S1000RR</h3>
+                <img src="imagenes/bmw-s1000rr.jpe" alt="BMW S1000RR">
+                <p>La BMW S1000RR es una superbike de alto rendimiento que ofrece una combinación perfecta de potencia, tecnología y diseño. Su motor de 999 cc y las características avanzadas la hacen ideal para los amantes de la velocidad.</p>
+                <ul>
+                    <li><strong>Motor:</strong> 999 cc</li>
+                    <li><strong>Potencia:</strong> 205 hp</li>
+                    <li><strong>Par Motor:</strong> 113 Nm</li>
+                    <li><strong>Velocidad Máxima:</strong> 305 km/h</li>
+                    <li><strong>Precio:</strong> $18,995</li>
+                </ul>
+                <p><strong>Características Destacadas:</strong> Control dinámico de tracción, frenos con ABS, modos de conducción ajustables, suspensión electrónica.</p>
+            </article>
+            
+            <article>
+                <h3>Aprilia RSV4 1100 Factory</h3>
+                <img src="imagenes/aprilia-rsv4-1100.jpe" alt="Aprilia RSV4 1100 Factory">
+                <p>La Aprilia RSV4 1100 Factory es una superbike que destaca por su impresionante motor y tecnología de vanguardia. Su diseño agresivo y la ingeniería avanzada ofrecen una experiencia de conducción emocionante y precisa.</p>
+                <ul>
+                    <li><strong>Motor:</strong> 1,100 cc</li>
+                    <li><strong>Potencia:</strong> 217 hp</li>
+                    <li><strong>Par Motor:</strong> 122 Nm</li>
+                    <li><strong>Velocidad Máxima:</strong> 310 km/h</li>
+                    <li><strong>Precio:</strong> $25,000</li>
+                </ul>
+                <p><strong>Características Destacadas:</strong> Sistema de frenos Brembo, suspensión Öhlins, modos de conducción avanzados, diseño aerodinámico.</p>
+            </article>
+            
+            <article>
+                <h3>Triumph Daytona Moto2 765</h3>
+                <img src="imagenes/triumph-daytona-moto2.jpe" alt="Triumph Daytona Moto2 765">
+                <p>La Triumph Daytona Moto2 765 es una moto que ofrece una experiencia de conducción inspirada en las carreras. Su motor de 765 cc y las características de competición hacen de esta moto una opción ideal para los entusiastas de las carreras.</p>
+                <ul>
+                    <li><strong>Motor:</strong> 765 cc</li>
+                    <li><strong>Potencia:</strong> 128 hp</li>
+                    <li><strong>Par Motor:</strong> 80 Nm</li>
+                    <li><strong>Velocidad Máxima:</strong> 250 km/h</li>
+                    <li><strong>Precio:</strong> $12,500</li>
+                </ul>
+                <p><strong>Características Destacadas:</strong> Suspensión ajustable, frenos de alto rendimiento, diseño aerodinámico, tecnología de carreras.</p>
+            </article>
+            
+        </div>
+    </section>
+    
+    <section id="tips">
+        <div class="container">
+            <h2>Consejos para Motociclistas</h2>
+            <ul>
+                <li>Siempre usa casco y equipo de protección. Un buen casco puede salvar tu vida en caso de accidente.</li>
+                <li>Mantén tu moto en buen estado realizando mantenimiento regular, incluyendo cambios de aceite, revisión de frenos y ajustes de la suspensión.</li>
+                <li>Conoce y respeta las normas de tránsito. Es crucial para tu seguridad y la de los demás usuarios de la carretera.</li>
+                <li>Realiza cursos de manejo para mejorar tus habilidades y técnicas de conducción. La educación continua es clave para ser un buen motociclista.</li>
+                <li>Conoce bien las características de tu moto antes de conducir. Lee el manual del propietario y familiarízate con los controles y la ergonomía de la moto.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Todo sobre Motos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
